@@ -1,5 +1,6 @@
 *{
     box-sizing: border-box;
+    font-family: Segoe UI;
 }
 * p{
     font-size: large;
@@ -52,11 +53,22 @@ header {
     padding: 20px;
 }
 header h1{
-    font-size: 60px;
+    font-size: 50px;
+    margin-bottom: 10;
+    line-height: 2px
 }
 
 #bekeretezett{
     margin: 50px;
+    line-height: 2px;
+    
+}
+#bekeretezett p, h2{
+      padding-bottom: 10px;
+}
+#bekeretezett {
+    font-size: larger;
+    font-weight: bold;
 }
 #focimMelleklet {
     flex: 0 0 300px;
