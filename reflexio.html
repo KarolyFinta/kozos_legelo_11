@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="hu">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Finta Károly</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <main>
+      <nav>
+        <div>
+          <h2 id="csillag">*</h2>
+          <h2>A közös legelő</h2>
+        </div>
+        <div>
+          <a href="index.html">1. Kezdet</a>
+          <a href="dontes.html">2. Döntés</a>
+          <a href="kovetkezmeny.html">3. Következmény</a>
+          <a href="reflexio.html">4. Mit tennél?</a>
+        </div>
+      </nav>
+      <header>
+        <div id="focim">
+          <p id="kicsiZold">1. állomás, közös erőforrások</p>
+          <h1>Kilenc gazda, egy legelő</h1>
+          <p>
+            A faluban kilenc gazda közösen használja a legelőt. Mindegyikük egy
+            tehenet tart rajta. A fű még elég az állatoknak
+          </p>
+        </div>
+        <div id="focimMelleklet">
+          <div id="bekeretezett">
+            <h2 class="zoldh1">Te jössz</h2>
+            <p>Válassz mérlegelj, érvelj</p>
+          </div>
+        </div>
+      </header>
+      <nav id="nav2">
+        <div class="nav2linkek">
+          <a href="./index.html" class="masikLinkek">Kezdet</a>
+        </div>
+        <div class="nav2linkek">
+          <a href="./dontes.html" class="masikLinkek">Döntés</a>
+        </div>
+        <div class="nav2linkek" id="active">
+          <a href="./kovetkezmeny.html" class="masikLinkek">Következmény</a>
+        </div>
+        <div class="nav2linkek">
+          <a href="./reflexio.html" class="masikLinkek">Mit tennél?</a>
+        </div>
+      </nav>
+      <section>
+        <div id="adatok">
+          <div id="sectionCim">
+            <h2>Rövíd gondolatkíséret</h2>
+            <p>
+              Az űrlap a HTML-elemek gyakorlására készült. A válaszodat az oldal
+              nem értékeli, és nem menti el
+            </p>
+          </div>
+          <div id="urlap">
+            <form>
+              <fieldset class="urlapKerdesek">
+                <legend>
+                  <h2 class="kerdes">
+                    1. Mi segíthetett volna megelőzni a mező túlterhelését?
+                  </h2>
+                </legend>
+                <div class="option">
+                  <input type="radio" name="nem" id="ffi" />
+                  <label for="ffi"
+                    >A gazdák előre megállapodnak az állatok számáról</label
+                  >
+                </div>
+
+                <div class="option">
+                  <input type="radio" name="nem" id="no" />
+                  <label for="no"
+                    >Mindenki külön dönt, és később figyelik a legelőt</label
+                  >
+                </div>
+
+                <div class="option">
+                  <input type="radio" name="nem" id="heli" />
+                  <label for="heli">Más megoldást javasolnék</label>
+                </div>
+              </fieldset>
+
+              <fieldset class="urlapKerdesek">
+                <legend>
+                  <h2 class="kerdes">
+                    2. Mit kellene mérlegelniük? Többet is jelölhetsz.
+                  </h2>
+                </legend>
+                <div class="option">
+                  <input type="checkbox" name="nem" id="ffi" />
+                  <label for="ffi">Mennyi fű tud újranőni?</label>
+                </div>
+
+                <div class="option">
+                  <input type="checkbox" name="nem" id="no" />
+                  <label for="no">Hogyan hat egy döntés a többi gazdára</label>
+                </div>
+
+                <div class="option">
+                  <input type="checkbox" name="nem" id="heli" />
+                  <label for="heli">Mennyi tejhez jutnak később</label>
+                </div>
+              </fieldset>
+           
+          </div>
+          <div class="indoklas">
+            <label for="indok">
+              <strong>3. Indokold meg a javaslatod 2–3 mondatban!</strong>
+            </label>
+
+            <textarea
+              id="indok"
+              name="indok"
+              rows="6"
+              placeholder="Szerintem azért éri meg..."
+            ></textarea>
+            <p>
+              A gomb csak újratölti ezt az oldalt. Nincs háttérrendszer, vagy
+              automatikus kiértékelés; a választ az órán beszéljétek meg
+            </p>
+              <input id="bekuldes" type="submit" value="Űrlap kipróbálása">
+            </p>
+        </form>
+            </div>
+          </div>
+        </div>
+        <aside>
+          <div id="asideHatter">
+            <h2>Beszélgetések</h2>
+            <ul>
+              <li>Míért tünt jó döntésnek a második tehén?</li>
+              <li>Mikor változott meg az egyéni, és a közös érdek viszonya?</li>
+              <li>Milyen szabályt tartanál igazságosnak?</li>
+            </ul>
+          </div>
+        </aside>
+      </section>
+      <div id="gondolat">
+        <a href="./kovetkezmeny.html">Előző oldal</a>
+        <a href="./dontes.html">Mi történik ezután?></a>
+      </div>
+    </main>
+  </body>
+</html>

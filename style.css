@@ -43,6 +43,9 @@ nav a {
     justify-content: center;
     border-radius: 10px;
 }
+.nav2linkek:hover{
+    background-color: #c1e9a1;
+}
 #active {
     background-color: #c1e9a1;
 }
@@ -179,7 +182,36 @@ footer {
     border-top: solid #d6e1d1 2px;
     margin-top: 20px;
 }
-
+#sok{
+    outline-color: orange;
+}
+.indoklas {
+    display: flex;
+    flex-wrap: wrap;
+}
+.indoklas label{
+    padding: 10px;
+}
+#indok {
+    flex: 1 0 400px;
+}
+#bekuldes{
+    padding: 10px;
+    background-color:#174b38 ;
+    border-radius: 10px;
+    color: white;
+    font-weight: bolder;
+}
+legend h2 {
+    font-size: medium;
+    flex: 1 0 400px;
+}
+.urlapKerdesek{
+    flex: 1 0 400px;
+}
+#adatok{
+    display: grid;
+}
 @media screen and (max-width:800px) {
     section {
         flex-wrap: wrap;
